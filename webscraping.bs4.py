@@ -20,7 +20,7 @@ def find_jobs():
     #         Company Name: {company_name}
     #         Required Skills: {skills}''')
             if unfamiliar_skill not in skills:
-                with open(f'posts/{index}.txt', 'w') as f: #need to create a new empty file beside there
+                with open(f'posts/{index}.txt', 'w') as f: #need to create a new empty folder beside there
                     f.write(f"Company Name: {company_name.strip()} \n")
                     f.write(f"Required Skills: {skills.strip()} \n")
                     f.write(f"More Info: {more_info} \n")
