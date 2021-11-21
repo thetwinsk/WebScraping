@@ -27,6 +27,3 @@ class BookingFiltration:
             'li[data-id="price"]'
         )
         element.click()
-
-
-        #self.driver.find_elements()
